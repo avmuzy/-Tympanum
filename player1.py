@@ -16,6 +16,10 @@ def pause():
 def unpause():
     pygame.mixer.music.unpause()
 
+def stop():
+    pygame.mixer.music.stop()
+
+
 
 
 
@@ -41,6 +45,8 @@ button2 = Button(myframe, text="Unpause", command=unpause, width=15)
 button2.pack(pady=5)
 button3 = Button(myframe, text="Pause", command=pause, width=15)
 button3.pack(pady=5)
+button4 = Button(myframe, text="Stop", command=stop, width=15)
+button4.pack(pady=5)
 
 # modify the window title # modificando a o titulo da janela
 
