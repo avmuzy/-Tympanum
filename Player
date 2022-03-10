@@ -37,7 +37,7 @@ myframe.pack()
 mylabel = Label(myframe, text="Audiometry Self-Test") # description # descriçao
 mylabel.pack()
 
-# setting bottons # definindo botoes
+# setting buttons # definindo botoes
 
 button1 = Button(myframe, text="Play", command=play, width=15)
 button1.pack(pady=5)
